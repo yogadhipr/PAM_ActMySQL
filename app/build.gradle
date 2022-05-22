@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.actmysql"
+        applicationId "com.example.actsqllite"
         minSdk 16
         targetSdk 32
         versionCode 1

@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.actmysql.database.DBController;
+import com.example.actmysql.database.MainActivity;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.HashMap;
@@ -46,7 +47,7 @@ public class TemanBaru extends AppCompatActivity {
         });
     }
     public void callHome(){
-        Intent i = new Intent(TemanBaru.this,MainActivity.class);
+        Intent i = new Intent(TemanBaru.this, MainActivity.class);
         startActivity(i);
         finish();
     }
